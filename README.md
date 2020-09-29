@@ -1,6 +1,6 @@
 # pvsim
 
-Pvsim is a very basic tool to simulate the generation of output values from a photo voltaic system along with simulated measurement of a household meter.
+Pvsim is a very basic tool to simulate the generation of output values from a photo voltaic system along with the simulated measurement of a household meter.
 
 ## Installation
 
