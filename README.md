@@ -25,7 +25,7 @@ This might be tricky depending on the version of your OS. In Ubuntu 16.04 and 18
 ```bash
 $ sudo apt-get install erlang
 $ sudo apt-get install rabbitmq-server
-$ sudo systemctl status rabbitmq-server
+$ sudo systemctl start rabbitmq-server
 ```
 
 For more information about installing RabbitMQ in Ubuntu and Debian systems,
