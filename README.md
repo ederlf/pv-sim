@@ -18,13 +18,14 @@ or
 $ python3 -V
 ```
 
-1. **Install RabbitMQ** 
+1. **Install and start RabbitMQ** 
 
 This might be tricky depending on the version of your OS. In Ubuntu 16.04 and 18.04, it is as simple as:
 
 ```bash
 $ sudo apt-get install erlang
 $ sudo apt-get install rabbitmq-server
+$ sudo systemctl status rabbitmq-server
 ```
 
 For more information about installing RabbitMQ in Ubuntu and Debian systems,
