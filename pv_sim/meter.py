@@ -3,33 +3,7 @@
 import json
 import datetime
 import random
-import argparse
 import msgbroker
-
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument(
-    "-b", "--broker", help="Chooses the msg broker. If not set, the simulator "
-    "uses rabbitmq", default="rabbitmq")
-parser.add_argument(
-    "--broker_ip", help="Sets the IP location of the broker. If not set, "
-    "localhost (127.0.0.1) is used")
-parser.add_argument(
-    "--broker_port", help="Sets the TCP port used to connect to the broker. If"
-    " not set, uses the default of the selected broker")
-parser.add_argument("-d", "--duration", type=int,
-                    help="Sets the duration of the simulated time, in seconds."
-                    "If not set, defaults to one day (86400 seconds)",
-                    default=86400)
-parser.add_argument("-s", "--step", type=int,
-                    help="Sets the advance of time and the interval of meter "
-                    "messages, in seconds. If not set, the simulator uses 5 "
-                    "seconds If not set, defaults to one day (86400 seconds)",
-                    default=5)
-parser.add_argument("--seed", type=int,
-                    help="Sets the seed for the random number generation. If "
-                    "not set, the simulator uses 42", default=42)
 
 
 class Meter(object):
