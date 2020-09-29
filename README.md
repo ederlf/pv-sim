@@ -56,7 +56,7 @@ To run a test using the sample file do:
 $ python run.py --pv_gen_file ../data/Jul2013.csv
 ```
 
-The execution of the command above will generate a file named pv-data.csv in your working directory. The is a CSV that contains:
+The execution of the command above will generate a file named pv-data.csv in your working directory. The file is a CSV that contains:
 
 ```
 Timestamp,MeterValue,PVValue,MeterValue+PVValue
